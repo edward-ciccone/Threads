@@ -36,6 +36,7 @@ public class Threads {
             @Override
             public void run() {
                 System.out.println("Haaaa");
+                threadMessage("From the runnable");
                 try {
                     Thread.sleep(2000L);
                 } catch (InterruptedException ex) {
